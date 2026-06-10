@@ -1,5 +1,5 @@
 module "test" {
-    source = "
+    source = "../Day-8-module-from-github"
     db_name = "mydb"
     db_username = "admin"
     db_password = "password"

@@ -4,13 +4,13 @@ variable "vpc_cidr" {
     default     = ""
   
 }
-variable "subnet1_cidr" {
+variable "subnett1_cidr" {
     description = "The CIDR block for the first subnet"
     type        = string
     default     = ""
   
 }
-variable "subnet2_cidr" {
+variable "subnett2_cidr" {
     description = "The CIDR block for the second subnet"
     type        = string
     default     = ""
